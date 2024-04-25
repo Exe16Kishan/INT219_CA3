@@ -1,0 +1,167 @@
+body{
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-weight: bolder;
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar #child1{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 20%;
+}
+.logo span {
+    color: #9CD02F;
+  }
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+}
+
+.navbar #child2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-size: 19px;
+}
+#cross{
+    margin-left: 94.5%;
+    font-size: 30px;
+    background-color: #111;
+    border: none;
+    color: #9CD02F;
+}
+.navbar #child2 h4:hover{
+     color: #9CD02F;
+}
+#body{
+  margin-top: 7%;
+}
+
+#trainer{
+    display: block;
+}
+#user{
+    display: none;
+}
+#bookings{
+    display: none;
+}
+#trainer .child{
+    display: flex;
+    height: 230px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+    background-color: #111;
+    /* position: relative; */
+}
+
+#trainer #add{
+    position: fixed;
+    height: 80vh;
+    width: 80vh;
+    top: 0;
+    margin: 7% 0% 0% 30%;
+    background-color: #222;
+    color: white;
+}
+#trainer span{
+    margin-left: 10%;
+    font-size: 25px;
+}
+#trainer #add-trainer{
+    margin-left: 57%;
+    height: 40px;
+    width: 130px;
+    background-color: #9CD02F;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+}
+button:hover{
+    cursor: pointer;
+}
+#add{
+    display: none;
+}
+#add h2{
+    text-align: center;
+}
+#trainer-added input{
+    height: 30px;
+    width: 60%;
+    margin: 10px 0px 20px 20%;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#trainer-added input[type="submit"]{
+    height: 35px;
+    width: 20%;
+    margin: 10px 0px 20px 40%;
+    border: none;
+    border-radius: 7px;
+    background-color: #9CD02F;
+    color: white;
+    font-size: 18px;
+}
+.image{
+    height:200px ;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.desc{
+    margin-left: 13%;
+    width: 40%;
+}
+#delete{
+    margin-left: 100px;
+    margin-top: 7%;
+}
+#delete button{
+    height: 40px;
+    width: 130px;
+    background-color: #9CD02F;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    height: 30px;
+  }
+tr:nth-child(even) {
+   background-color: #333;
+}  
+#user h1{
+    text-align: center;
+}
